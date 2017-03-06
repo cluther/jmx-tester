@@ -32,9 +32,14 @@ IP address by which the client can connect to the server.
         -Dcom.sun.management.jmxremote.authenticate=false \
         -jar target/jmx-tester-1.0.0-jar-with-dependencies.jar
 
-## Testing
-
-The best way to 
-
 [JRE]: https://java.com/
 [jmx-tester-1.0.0.jar]: https://github.com/cluther/jmx-tester/releases/download/v1.0.0/jmx-tester-1.0.0.jar
+
+## Testing
+
+The best way to test that jmx-tester is running correctly is to connect to it
+using JConsole. See the following JConsole screenshot that shows the
+_jmx-tester_ folder containing _JMXTestObjectMBean_, and its attributes and
+operations available for testing.
+
+![JMXTestObjectMbean](https://raw.githubusercontent.com/cluther/jmx-tester/master/jmx-tester-jconsole.png)

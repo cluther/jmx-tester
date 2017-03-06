@@ -14,8 +14,8 @@ Here's an example of how to run it with no authentication or SSL on port 9991.
         -Dcom.sun.management.jmxremote.port=9991 \
         -Dcom.sun.management.jmxremote.ssl=false \
         -Dcom.sun.management.jmxremote.authenticate=false \
-        -jar target/jmx-tester-1.0.0.jar
-s
+        -jar jmx-tester-1.0.0.jar
+
 A common problem you might encounter is still being unable to
 connect successfully after running it as above. This is most often
 caused by server not knowing the correct name by which the JMX
@@ -30,7 +30,7 @@ IP address by which the client can connect to the server.
         -Dcom.sun.management.jmxremote.port=9991 \
         -Dcom.sun.management.jmxremote.ssl=false \
         -Dcom.sun.management.jmxremote.authenticate=false \
-        -jar target/jmx-tester-1.0.0-jar-with-dependencies.jar
+        -jar jmx-tester-1.0.0.jar
 
 [JRE]: https://java.com/
 [jmx-tester-1.0.0.jar]: https://github.com/cluther/jmx-tester/releases/download/v1.0.0/jmx-tester-1.0.0.jar

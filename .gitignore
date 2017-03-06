@@ -1,2 +1,3 @@
-.classpath
-bin
+/bin/
+/target/
+*.iml
